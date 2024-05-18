@@ -16,7 +16,8 @@
         "--filesystem=/var/lib/flatpak:ro",
         "--filesystem=~/.local/share/flatpak:ro",
         "--filesystem=~/.local/share/applications:rw",
-        "--filesystem=~/.var/app:rw"
+        "--filesystem=~/.local/share/icons:create",
+        "--filesystem=~/.local/share/cosmic-webapps:create"
     ],
     "build-options": {
         "append-path": "/usr/lib/sdk/rust-stable/bin"
@@ -46,11 +47,11 @@
             ],
             "sources": [
                 {
-                  "type": "git",
-                  "url": "https://github.com/elevenhsoft/WebApps",
-                  "tag": "0.4.1",
-                  "commit": "6a7fc91a95597cc9a9482c0a35b0ad8d16f9fb7c",
-                  "builddir": true
+                    "type": "git",
+                    "url": "https://github.com/elevenhsoft/WebApps",
+                    "tag": "0.4.2",
+                    "commit": "fb518a727f30365859f339522bcb42c4e626def6",
+                    "builddir": true
                 },
                 "cargo-sources.json"
             ]
