@@ -49,8 +49,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/elevenhsoft/WebApps",
-                    "tag": "0.4.4",
-                    "commit": "36270d5b3ca47042e02f624f4d4cff61afb64b64",
+                    "tag": "0.4.5",
+                    "commit": "b83a6429acc67039ddcadbccbee0e5bd6cc7c831",
                     "builddir": true
                 },
                 "cargo-sources.json"
