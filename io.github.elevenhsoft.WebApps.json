@@ -79,23 +79,14 @@
       "build-commands": [
         "cargo --offline fetch --manifest-path Cargo.toml --verbose",
         "cargo --offline build --release --verbose",
-        "install -Dm0755 ./target/release/quick-webapps /app/bin/quick-webapps",
-        "install -Dm0644 ./res/io.github.elevenhsoft.WebApps.desktop /app/share/applications/io.github.elevenhsoft.WebApps.desktop",
-        "install -Dm0644 ./res/io.github.elevenhsoft.WebApps.metainfo.xml /app/share/metainfo/io.github.elevenhsoft.WebApps.metainfo.xml",
-        "install -Dm0644 ./res/icons/hicolor/16x16/apps/io.github.elevenhsoft.WebApps.png /app/share/icons/hicolor/16x16/apps/io.github.elevenhsoft.WebApps.png",
-        "install -Dm0644 ./res/icons/hicolor/24x24/apps/io.github.elevenhsoft.WebApps.png /app/share/icons/hicolor/24x24/apps/io.github.elevenhsoft.WebApps.png",
-        "install -Dm0644 ./res/icons/hicolor/32x32/apps/io.github.elevenhsoft.WebApps.png /app/share/icons/hicolor/32x32/apps/io.github.elevenhsoft.WebApps.png",
-        "install -Dm0644 ./res/icons/hicolor/48x48/apps/io.github.elevenhsoft.WebApps.png /app/share/icons/hicolor/48x48/apps/io.github.elevenhsoft.WebApps.png",
-        "install -Dm0644 ./res/icons/hicolor/64x64/apps/io.github.elevenhsoft.WebApps.png /app/share/icons/hicolor/64x64/apps/io.github.elevenhsoft.WebApps.png",
-        "install -Dm0644 ./res/icons/hicolor/128x128/apps/io.github.elevenhsoft.WebApps.png /app/share/icons/hicolor/128x128/apps/io.github.elevenhsoft.WebApps.png",
-        "install -Dm0644 ./res/icons/hicolor/256x256/apps/io.github.elevenhsoft.WebApps.png /app/share/icons/hicolor/256x256/apps/io.github.elevenhsoft.WebApps.png"
+        "just flatpak"
       ],
       "sources": [
         {
           "type": "git",
           "url": "https://github.com/cosmic-utils/web-apps",
           "tag": "0.4.8",
-          "commit": "d2c90625d1755d7d908f4347c619a7f86a379314",
+          "commit": "98c704be51128421b0c3d06b2793145822e043f0",
           "builddir": true
         },
         "cargo-sources.json"
