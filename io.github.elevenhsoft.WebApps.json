@@ -85,8 +85,7 @@
         {
           "type": "git",
           "url": "https://github.com/cosmic-utils/web-apps",
-          "tag": "0.5.0",
-          "commit": "65e7818f57134e1a05bc4f9ce922fea0c256df2e",
+          "commit": "862606995a4790de9b0ac9430780be5526a17e18",
           "builddir": true
         },
         "cargo-sources.json"
