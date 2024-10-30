@@ -3,9 +3,7 @@
   "runtime": "org.freedesktop.Platform",
   "runtime-version": "24.08",
   "sdk": "org.freedesktop.Sdk",
-  "sdk-extensions": [
-    "org.freedesktop.Sdk.Extension.rust-stable"
-  ],
+  "sdk-extensions": ["org.freedesktop.Sdk.Extension.rust-stable"],
   "base": "com.system76.Cosmic.BaseApp",
   "base-version": "stable",
   "command": "quick-webapps",
@@ -44,7 +42,7 @@
         {
           "type": "git",
           "url": "https://github.com/cosmic-utils/web-apps",
-          "commit": "3c7296a5259b4f98fad7b4a8a99693ca0715c314",
+          "commit": "570c887959518840fa0bd0c17e2ce46dca0f8112",
           "builddir": true
         },
         "cargo-sources.json"
