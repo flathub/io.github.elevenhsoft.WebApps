@@ -1,5 +1,4 @@
 {
     "end-of-life": "Application has been renamed to dev.heppen.webapps",
-    "end-of-life-rebase": "dev.heppen.webapps",
-    "skip-appstream-check": true
+    "end-of-life-rebase": "dev.heppen.webapps"
 }
